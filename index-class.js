@@ -6,3 +6,15 @@ function Numbers(a,b,c){
 
 }
 
+ /*2. Write a function that takes an array of numbers as an argument. Then it lists ONLY the numbers that are divisible by 3  If there are not such numbers console.log(“Sorry, no 3-divisible numbers”). (Think of push() method)*/
+
+ function findOdd (array) {
+	var oddArray = []
+ 	for(var i = 0; i < array.length; i++){
+ 		if (array[i] %3 ==0){
+ 			oddArray.push(array[i])
+ 		}
+
+ 	}
+ 	console.log(oddArray)	
+ }

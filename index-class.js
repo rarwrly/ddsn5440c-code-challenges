@@ -14,7 +14,13 @@ function Numbers(a,b,c){
  		if (array[i] %3 ==0){
  			oddArray.push(array[i])
  		}
-
  	}
- 	console.log(oddArray)	
+
+ 	if (oddArray.length === 0){
+ 		console.log('No numbers divisable by 3')
+ 	}
+ 	else {
+ 		console.log(oddArray)
+ 	}
+ 		
  }
